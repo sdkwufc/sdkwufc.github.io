@@ -1,7 +1,7 @@
 {
 	"dir" : "ltr",
 	"lang" : "en",
-	"name" : "Studentkortet",
+	"name" : "Mecenat",
 	"scope" : "/",
 	"display" : "standalone",
 	"start_url" : "https://sdkwufc.github.io/index.html",

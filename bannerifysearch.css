@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+#banner3_003475570 {
+	background-color: #10a5c5;
+	border: 0;
+	box-sizing: border-box;
+	cursor: default;
+	display: block;
+	height: 667px;
+	overflow: hidden;
+	position: relative;
+	width: 375px;
+	z-index: 1;
+}#banner3_003475570 div {
+	position: absolute;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+#banner3_003475570 img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+#b_1_banner3_003475570 {
+	top: 69px;
+	left: 10px;
+	z-index: 1;
+}
+
+#img_1_banner3_003475570 {
+	width: 356px;
+	height: 70px;
+}
+
+#img_1_banner3_003475570.bnfy-enter {
+	-webkit-animation: none 700ms 0ms ease 1 both;
+	animation: none 700ms 0ms ease 1 both;
+}
+
+#b_2_banner3_003475570 {
+	top: 565px;
+	left: 153px;
+	z-index: 2;
+}
+
+#img_2_banner3_003475570 {
+	width: 72px;
+	height: 72px;
+}
+
+#img_2_banner3_003475570.bnfy-enter {
+	-webkit-animation: none 300ms 0ms ease infinite both;
+	animation: none 300ms 0ms ease infinite both;
+}
+
+#b_3_banner3_003475570 {
+	top: 575px;
+	left: 163px;
+	z-index: 3;
+}
+
+#img_3_banner3_003475570 {
+	width: 52px;
+	height: 52px;
+}
+
+#img_3_banner3_003475570.bnfy-enter {
+	-webkit-animation: none 300ms 0ms ease 1 both;
+	animation: none 300ms 0ms ease 1 both;
+}
+
+@media (print), (prefers-reduced-motion: reduce) {
+	.banner__element {
+		-webkit-animation-duration: 1ms !important;
+		animation-duration: 1ms !important;
+		-webkit-transition-duration: 1ms !important;
+		transition-duration: 1ms !important;
+		-webkit-animation-iteration-count: 1 !important;
+		animation-iteration-count: 1 !important;
+	}
+}
+@-webkit-keyframes simple-show {
+	0% {
+		visibility: hidden;
+	}
+	100% {
+		visibility: visible;
+	}
+}
+@keyframes simple-show {
+	0% {
+		visibility: hidden;
+	}
+	100% {
+		visibility: visible;
+	}
+}
+@-webkit-keyframes simple-hide {
+	0% {
+		visibility: visible;
+	}
+	100% {
+		visibility: hidden;
+	}
+}
+@keyframes simple-hide {
+	0% {
+		visibility: visible;
+	}
+	100% {
+		visibility: hidden;
+	}
+}
